@@ -1,0 +1,22 @@
+Algoritmo "Software de Somas"
+// 
+//  
+// Descrição   : Soma dois números dados pelo usuário e retorna o resultado.
+// Autor(a)    : Felipe Magalhães de A. Carneiro
+// Data atual  : 01/09/2025
+Var
+   valor1: inteiro
+   valor2: inteiro
+   soma: inteiro
+Inicio
+   Escreval("Software de Somas. Seja Bem-vindo!")
+   Escreval("Digite um número:")
+   Leia(valor1)
+   Escreval(valor1)
+   Escreval("Agora, digite um segundo número para ser somado:")
+   Leia(valor2)
+   Escreval(valor2)
+   Escreval("Fazendo o cálculo...")
+   soma <- valor1 + valor2
+   Escreval("O resultado é: ", soma)
+Fimalgoritmo
